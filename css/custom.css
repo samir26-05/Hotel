@@ -4,6 +4,7 @@ html {
 body {
     background-color: #f5f3f3
 }
+
 h1 {
     text-align: center;
 }
@@ -125,18 +126,99 @@ ul {
     }
 }
 .icono1 {
-    background-image: url(../img/icono1.png);
+    background-image: url(/img/icono1.png);
 }
 .icono2 {
-    background-image: url(../img/icono2.png);
+    background-image: url(/img/icono2.png);
 }
 .icono3 {
-    background-image: url(../img/icono3.png);
+    background-image: url(/img/icono3.png);
 }
 
 #lista-cursos .row {
     margin-bottom:20px;
 }
+
+
+
+
+/*posicion de cartas e imagenes*/
+.card1, .card2, .imagen1, .imagen2{
+    width: 530px !important;
+    height: 250px !important;
+    border-radius: 1rem !important;
+    margin-right: 30px;
+    position:absolute;
+}
+
+/*posicion de cartas e imagenes*/
+.card3, .card4, .card5, .imagen3, .imagen4, .imagen5{
+    width: 343px !important;
+    height: 250px !important;
+    border-radius: 1rem !important;
+    margin-right: 30px;
+    
+}
+
+.card{
+    border: transparent !important;
+}
+
+
+/*Imagen de la bandera de colombia*/
+.img-colombia{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.img-colombia1{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+/*Titulo de la ciudad*/
+.ciudad{
+    position:absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color: rgb(28, 28, 29);
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.ciudad-sc{
+    position:absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:inherit;
+    color: rgb(28, 28, 29);
+    margin-top: 25px;
+    margin-left: 200px;
+    
+}
+
+/*Transicion zoom de cartas*/
+.img-ciudad:hover{
+    cursor: pointer;
+    border: rgb(255, 145, 0) 1px solid;
+    
+}
+
+.imagen1{
+    box-shadow: 20px 20px 50px 10px rgb(0, 0, 0) inset !important
+}
+
+/*centralizacion de la galeria*/
+.galery1, .galery2{
+    padding-left: 200px;
+}
+
+
+
+
+
+
 .agregar-carrito {
     margin:10px 0;
 }
