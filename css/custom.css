@@ -190,13 +190,17 @@ text-decoration: none;
     padding: 40px;
     margin-top: 2px;
     margin-bottom: 2px;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 .footer_subbanner{
+    display: flex;
     margin-bottom: 10px;
     margin-left: 45px;
     color:#aaa;
     margin-top:10px;
     font-size:100%;
+    justify-content: center;
 }
 
 .title_normal   {
@@ -229,6 +233,13 @@ text-decoration: none;
     background-color: #003580;
 }
 
+
+.footer-top-list{
+    display:flex;
+    justify-content: center;
+    margin-top:1px;
+}
+
 .footer-top-link {
     color: white;
     font-weight: bold;
@@ -248,3 +259,83 @@ text-decoration: none;
 }
 
 .manage {color:white;}
+
+.footer-navigation {
+    margin:0;
+    width: 20;
+    float: left;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+}
+
+
+.footer-link{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.footer-navigation-link{
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 14px;
+    font-size: 13px;
+    white-space: normal!important;
+    list-style-type: none;
+}
+
+.navigation-wrapper{
+    padding-left: 200px;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.footer-logos{
+    max-width: 1094px;
+    min-width: 620px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.footer_priceline{
+    border-top: 1px solid var(--bui_color_white);
+    border-bottom: 1px solid var(--bui_color_white);
+    margin-top: 3em;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+}
+.footer_priceline a{
+    border-top: 1px solid var(--bui_color_white);
+    border-bottom: 1px solid var(--bui_color_white);
+    margin-top: 3em;
+    padding: 0;
+    text-align: center;
+    font-size: 15px
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.links-footer li{
+    margin: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction:column;
+}
