@@ -147,7 +147,7 @@ ul {
     width: 530px !important;
     height: 250px !important;
     border-radius: 1rem !important;
-    margin-right: 30px;
+    margin-right: 15px;
     position:absolute;
 }
 
@@ -156,7 +156,7 @@ ul {
     width: 343px !important;
     height: 250px !important;
     border-radius: 1rem !important;
-    margin-right: 30px;
+    margin-right: 22px;
     
 }
 
@@ -164,54 +164,68 @@ ul {
     border: transparent !important;
 }
 
-
 /*Imagen de la bandera de colombia*/
 .img-colombia{
     position:absolute;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .img-colombia1{
     position:absolute;
     margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 140px;
 }
 
 /*Titulo de la ciudad*/
 .ciudad{
     position:absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style:inherit;
-    color: rgb(28, 28, 29);
+    color: rgb(255, 255, 255);
     margin-top: 25px;
-    margin-left: 150px;
+    margin-left: 25px;
 }
 
+/*Titulo de la ciudad Santa Marta y Cartagena*/
 .ciudad-sc{
     position:absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style:inherit;
-    color: rgb(28, 28, 29);
+    color: rgb(255, 255, 255);
     margin-top: 25px;
-    margin-left: 200px;
+    margin-left: 30px;
     
 }
 
-/*Transicion zoom de cartas*/
+/*Transicion de cartas*/
 .img-ciudad:hover{
     cursor: pointer;
     border: rgb(255, 145, 0) 1px solid;
-    
-}
-
-.imagen1{
-    box-shadow: 20px 20px 50px 10px rgb(0, 0, 0) inset !important
 }
 
 /*centralizacion de la galeria*/
 .galery1, .galery2{
-    padding-left: 200px;
+    padding-left: 80px;
+}
+
+/*Boton RESERVAR / modal*/
+.btn-reservar{
+    width: 60px;
+    height: 25px;
+}
+
+/*cartas e imagenes descubre colombia*/
+.card-img-top{
+    height: 175px;
+    border-radius: 1rem !important;
+}
+
+.card-img-top:hover{
+    cursor: pointer;
+    border: rgb(255, 145, 0) 1px solid;
+}
+
+
+.card-descubre{
+    margin-right: 22px;
+    margin-top: 10px;
 }
 
 
