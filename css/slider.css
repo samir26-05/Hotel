@@ -1,0 +1,150 @@
+#hero{
+    max-height: 28em;
+    background-color: #003b95;
+}
+
+.slider{
+    justify-content: center;
+    margin: 50px -50px;
+    width: 71.8em;
+    overflow: hidden;
+}
+
+.slider .title{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    max-width: 22em;
+    font-size: 36px;
+    
+    font-weight: 800;
+
+    bottom: 16em;
+    left: 1em;
+    color: #ffffff;
+}
+
+.slider .content{
+    position: relative;
+    overflow: hidden;
+    max-width: 20em;
+    font-size: 24px;
+
+    font-weight: 400;
+
+    bottom: 25em;
+    left: 1.5em;
+    color: #ffffff;
+}
+
+.imgSlider{
+    padding: 0 20px;
+}
+
+.slider ul{
+    display: flex;
+    width: 600%;
+}
+
+.slider li{
+    list-style: none;
+    max-height: 350px;
+    width: 100%;
+}
+
+.slider img, .slider p{
+    width: 100%;
+    margin-top: 0;
+    animation: slide 15s infinite;
+}
+
+.consult-bar{
+    position: absolute;
+    background-color: #ffb700;
+    align-items: center;
+    padding: 4px;
+    width: 68em;
+    display: flex;
+    bottom: -1.3em;
+    border-radius: 5px;
+    left: -1.8em;
+}
+
+.consult-bar .address, .consult-bar .dates{
+    max-height: 50px;
+}
+
+.consult-bar select{
+    width: 220px;
+    margin: 0 2px;
+    
+}
+
+.consult-bar select:focus{
+    background-color: #ececec;
+    transition: .3s;
+}
+
+.consult-bar div{
+    margin: 0 1px;
+    
+}
+
+.persons select{
+    width: 120px;
+    margin: 0 2px;
+}
+
+#search{
+    position: sticky;
+    padding: 12px 18px;
+    
+    background-color: #006ce4;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+form a {
+    position: absolute;
+    top: 16em;
+    left: -2em;
+    padding: 12px 18px;
+    background-color: #006ce4;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+form a:hover{
+    background-color: #003b95;
+    color: #ffffff;
+}
+
+@keyframes slide{
+    0% {margin-left: -2%;}
+    12%{margin-left: -2%;}
+
+    17% {margin-left: -101.8%;}
+    27%{margin-left: -101.8%;}
+
+    32% {margin-left: -201.8%;}
+    42%{margin-left: -201.8%;}
+
+    47% {margin-left: -301.8%;}
+    57%{margin-left: -301.8%;}
+
+    62% {margin-left: -401.8%;}
+    72%{margin-left: -401.8%;}
+
+    77% {margin-left: -501.8%;}
+    95%{margin-left: -501.8%;}
+}
